@@ -4,7 +4,7 @@ import joblib
 from utils import preprocessor
 
 def run():
-    model = ???
+    model = model.predict(user_series)[0]
 
     st.title("Sentiment Analysis")
     st.text("Basic app to detect the sentiment of text.")
